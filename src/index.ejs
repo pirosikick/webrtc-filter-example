@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      video,
+      canvas {
+        max-width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="start-button">Start Video</button>
+    <button id="connect-button">Connect</button>
+    <button id="receive-scp">Receive SCP</button>
+    <div id="original-video"></div>
+    <div id="canvas"></div>
+    <div id="canvas-video"></div>
+    <textarea id="send-sdp" readonly placeholder="send scp"></textarea>
+    <textarea id="receive-sdp" placeholder="receive scp"></textarea>
+    <div id="remote-video"></div>
+  </body>
+</html>
